@@ -1,0 +1,10 @@
+# 本文件定义 Android 工程不应提交到版本控制的本地生成文件。
+.gradle/
+.idea/
+*.iml
+local.properties
+build/
+app/build/
+captures/
+.externalNativeBuild/
+

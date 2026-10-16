@@ -1,0 +1,23 @@
+<!-- 本文件声明每日利息应用的 Android 组件与系统主题。 -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 应用主体仅包含一个离线主页 Activity。 -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DailyInterest">
+
+        <!-- 启动入口，承载本金记录和利息日历。 -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

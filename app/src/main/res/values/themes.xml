@@ -1,0 +1,15 @@
+<!-- 本文件定义应用的系统窗口主题与状态栏外观。 -->
+<resources>
+    <!-- 主应用主题，使用浅色无操作栏窗口承载 Compose 界面。 -->
+    <style name="Theme.DailyInterest" parent="android:style/Theme.Material.Light.NoActionBar">
+        <!-- 状态栏使用页面背景色。 -->
+        <item name="android:statusBarColor">@color/app_surface</item>
+        <!-- 状态栏图标使用深色以保持可读性。 -->
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- 导航栏使用页面背景色。 -->
+        <item name="android:navigationBarColor">@color/app_surface</item>
+        <!-- 导航栏图标使用深色以保持可读性。 -->
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>
+

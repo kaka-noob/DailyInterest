@@ -1,0 +1,7 @@
+<!-- 本文件定义系统主题需要的基础颜色。 -->
+<resources>
+    <!-- 应用浅色页面与系统栏使用的背景色。 -->
+    <color name="app_surface">#FFF9FAFB</color>
+    <!-- 自适应桌面图标使用的青绿色背景。 -->
+    <color name="ic_launcher_background">#00CFC8</color>
+</resources>

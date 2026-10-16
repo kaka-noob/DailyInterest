@@ -1,0 +1,5 @@
+<!-- 本文件集中保存应用使用的文字资源。 -->
+<resources>
+    <!-- 桌面与系统任务列表中显示的应用名称。 -->
+    <string name="app_name">日进斗金</string>
+</resources>

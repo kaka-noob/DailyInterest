@@ -1,0 +1,7 @@
+<!-- 本文件定义 Android 8 及以上设备使用的自适应桌面图标。 -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 图标背景色适配不同设备的桌面遮罩。 -->
+    <background android:drawable="@color/ic_launcher_background" />
+    <!-- 前景使用沙漏金币图案。 -->
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+</adaptive-icon>
